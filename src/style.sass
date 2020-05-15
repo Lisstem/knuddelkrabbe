@@ -1,0 +1,100 @@
+.overlay:target
+  visibility: visible
+  opacity: 1
+
+.overlay
+  position: absolute
+  top: 0
+  width: 100%
+  height: 100%
+  background: rgba(0,0,0,0.5)
+  transition: opacity 200ms
+  visibility: hidden
+  opacity: 0
+  z-index: 99
+
+.popup
+  width: max-content
+  color: black
+  top: 40%
+  margin: 75px auto
+  padding: 20px
+  background: #fff
+  border: 1px solid #666
+  text-align: center
+  box-shadow: 0 0 50px rgba(0,0,0,0.5)
+  position: relative
+
+.close
+  width: 20px
+  height: 20px
+  top: 20px
+  right: 20px
+  opacity: 0.8
+  transition: all 200ms
+  font-size: 24px
+  font-weight: bold
+  text-decoration: none
+  color: #666
+
+*
+  scroll-behavior: smooth
+
+body
+  display: flex
+  justify-content: center
+  flex-direction: column
+  align-items: center
+  background-color: #6a6a6a
+  color: white
+  margin: 0
+
+#container
+  left: 10%
+  display: flex
+  height: 100%
+  min-width: 80%
+  max-width: 1000px
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  box-shadow: 0 0 70px 30px rgba(0,0,0,0.9)
+
+header
+  display: flex
+  justify-content: center
+  background-color: #222222
+  color: white
+  width: 100%
+  margin: 0
+  position: sticky
+  top: 0
+  z-index: 10
+
+main
+  display: flex
+  flex: 1
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  width: 100%
+  background-color: gray
+  position: sticky
+  flex-wrap: wrap
+
+footer
+  padding-top: 20px
+  background-color: darkgray
+  width: 100%
+  padding-bottom: 40px
+  text-align: center
+
+.p
+  display: flex
+  margin: 20px
+  min-width: 200px
+  max-width: 500px
+
+.top
+  margin-top: -80px
+  padding-top: 100px
