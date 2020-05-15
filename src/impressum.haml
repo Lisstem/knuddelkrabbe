@@ -1,0 +1,13 @@
+%h2 Impressum
+#impressum
+  Angaben gemäß § 5 TMG:
+  %br
+  = impressum[:name]
+  %br
+  = "#{impressum[:street]} #{impressum[:street_number]}"
+  %br
+  = "#{impressum[:zip_code]} #{impressum[:city]}"
+  %br
+  = "Telefon: #{impressum[:telephone_number]}"
+  %br
+  = "Email: #{impressum[:email]}"

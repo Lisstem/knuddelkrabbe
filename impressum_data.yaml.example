@@ -1,0 +1,8 @@
+---
+:name: Miriam Mustermensch
+:street: Musterstraße
+:street_number: 42
+:zip_code: 12345
+:city: mustermensch
+:email: miriam-mustermensch@example.com
+:telephone_number: "01234 56789"
