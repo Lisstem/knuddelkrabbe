@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+
+%html
+  %head
+    %meta{"http-equiv": "Content-Type", content: "text/html; charset=UTF-8"}
+    %link{rel: "stylesheet", type: "text/css", href:"css/style.css"}
+    %title Knuddelkrabbe
+
+  %body
+    = render '_header', construction: construction
+    #container
+      = render '_construction' if construction
+      %main
+        #top
+        = render site
+      = render '_footer'
