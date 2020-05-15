@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'bundler/setup'
 require 'tilt/haml'
+require 'tilt/sass'
 
 Encoding.default_external = 'utf-8'
 
