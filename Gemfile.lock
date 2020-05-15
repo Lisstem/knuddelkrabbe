@@ -1,9 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    ffi (1.12.2)
     haml (5.1.2)
       temple (>= 0.8.0)
       tilt
+    sassc (2.3.0)
+      ffi (~> 1.9)
     temple (0.8.2)
     tilt (2.0.9)
 
@@ -12,6 +15,7 @@ PLATFORMS
 
 DEPENDENCIES
   haml (>= 5.0)
+  sassc (>= 2.3.0)
   tilt (>= 2.0)
 
 RUBY VERSION
